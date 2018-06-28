@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">E-APARAT</string>
+
+    <!--log in-->
+    <string name="nama">Nama</string>
+    <string name="pass">Kata Sandi</string>
+    <string name="tb_masuk">Masuk</string>
+    <string name="tx_login">Belum Punya Akun</string>
+    <string name="tx_login1">Lupa Kata Sandi?</string>
+</resources>

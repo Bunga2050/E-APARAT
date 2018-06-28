@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.aparat.e_aparat.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="300dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginRight="114dp"
+            android:layout_toStartOf="@id/ipass"
+            android:src="@mipmap/nama" />
+
+        <ImageView
+            android:id="@+id/ipass"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="114dp"
+            android:layout_marginBottom="9dp"
+            android:src="@mipmap/sandi" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:paddingLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/text_style"
+            android:ems="10"
+            android:hint="@string/nama"/>
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/text_style"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="16dp"
+            android:hint="@string/pass"
+            android:layout_gravity="center"
+            android:ems="10"
+            />
+
+        <Button
+            android:id="@+id/button_masuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/tb_masuk"
+            android:ems="13"
+            />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tx_login"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="190dp"
+        />
+
+    <TextView
+        android:id="@+id/text_login1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tx_login1"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="500dp"/>
+
+</RelativeLayout>
