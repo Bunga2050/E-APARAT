@@ -34,8 +34,8 @@
             android:id="@id/nama"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:layout_marginTop="10dp"
-            android:paddingBottom="10dp"
+            android:layout_marginTop="23dp"
+            android:paddingBottom="6dp"
             android:layout_marginRight="114dp"
             android:layout_toStartOf="@id/ipass"
             android:src="@mipmap/nama" />
@@ -44,11 +44,11 @@
             android:id="@+id/ipass"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:paddingTop="10dp"
+            android:paddingTop="6dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
             android:layout_marginRight="114dp"
-            android:layout_marginBottom="9dp"
+            android:layout_marginBottom="23dp"
             android:src="@mipmap/sandi" />
 
     </LinearLayout>
@@ -57,7 +57,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginLeft="30dp"
         android:gravity="center">
 
         <EditText
@@ -68,27 +67,36 @@
             android:paddingLeft="16dp"
             android:layout_marginTop="50dp"
             android:background="@drawable/text_style"
-            android:ems="10"
-            android:hint="@string/nama"/>
+            android:ems="12"
+            android:layout_marginLeft="18dp"
+            android:hint="@string/nama"
+            android:textSize="16sp"/>
 
         <EditText
             android:id="@+id/pass"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:background="@drawable/text_style"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="18dp"
             android:paddingLeft="16dp"
             android:hint="@string/pass"
             android:layout_gravity="center"
-            android:ems="10"
+            android:ems="12"
+            android:inputType="textPassword"
+            android:textSize="16sp"
             />
 
         <Button
             android:id="@+id/button_masuk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/tb_masuk"
-            android:ems="13"
+            android:text="@string/tb_masuk"
+            android:layout_marginTop="3dp"
+            android:ems="10"
+            android:layout_marginLeft="18dp"
+            android:textSize="19dp"
+            android:textColor="@color/black"
             />
 
     </LinearLayout>
@@ -102,6 +110,7 @@
         android:text="@string/tx_login"
         android:layout_marginTop="480dp"
         android:layout_marginLeft="190dp"
+        android:textColor="@color/black"
         />
 
     <TextView
@@ -109,7 +118,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tx_login1"
-        android:layout_marginLeft="200dp"
-        android:layout_marginTop="500dp"/>
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="500dp"
+        android:textColor="@color/black"/>
 
 </RelativeLayout>
