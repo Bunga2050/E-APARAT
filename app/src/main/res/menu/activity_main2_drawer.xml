@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hari"
+            android:title="Hari"/>
+        <item
+            android:id="@+id/nav_minggu"
+            android:title="Minggu" />
+        <item
+            android:id="@+id/nav_bulan"
+            android:title="Bulan" />
+        <item
+            android:id="@+id/nav_minggu2"
+            android:title="2 minggu" />
+        <item
+            android:id="@+id/nav_agenda"
+            android:title="Agenda " />
+    </group>
+</menu>
